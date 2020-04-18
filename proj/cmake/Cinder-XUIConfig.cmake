@@ -7,13 +7,10 @@ if(NOT TARGET Cinder-XUI)
 
     # Make a list of source files and define that to be ${SOURCE_LIST}.
     file(GLOB SOURCE_LIST CONFIGURE_DEPENDS
-            "${Cinder-XUI_PROJECT_ROOT}/include/**/*.h"
-            "${Cinder-XUI_PROJECT_ROOT}/include/**/*.hpp"
+            "${Cinder-XUI_PROJECT_ROOT}/include/*.h"
             "${Cinder-XUI_PROJECT_ROOT}/src/**/*.cc"
             "${Cinder-XUI_PROJECT_ROOT}/src/**/*.cpp"
             "${Cinder-XUI_PROJECT_ROOT}/src/**/*.c"
-            "${Cinder-XUI_PROJECT_ROOT}/include/*.h"
-            "${Cinder-XUI_PROJECT_ROOT}/include/*.hpp"
             "${Cinder-XUI_PROJECT_ROOT}/src/*.cc"
             "${Cinder-XUI_PROJECT_ROOT}/src/*.cpp"
             "${Cinder-XUI_PROJECT_ROOT}/src/*.c")
