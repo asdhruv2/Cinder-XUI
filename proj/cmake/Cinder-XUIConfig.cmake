@@ -7,16 +7,16 @@ if(NOT TARGET Cinder-XUI)
 
     # Make a list of source files and define that to be ${SOURCE_LIST}.
     file(GLOB SOURCE_LIST CONFIGURE_DEPENDS
-            "${Cinder-Notifications_PROJECT_ROOT}/src/**/*.h"
-            "${Cinder-Notifications_PROJECT_ROOT}/src/**/*.hpp"
-            "${Cinder-Notifications_PROJECT_ROOT}/src/**/*.cc"
-            "${Cinder-Notifications_PROJECT_ROOT}/src/**/*.cpp"
-            "${Cinder-Notifications_PROJECT_ROOT}/src/**/*.c"
-            "${Cinder-Notifications_PROJECT_ROOT}/src/*.h"
-            "${Cinder-Notifications_PROJECT_ROOT}/src/*.hpp"
-            "${Cinder-Notifications_PROJECT_ROOT}/src/*.cc"
-            "${Cinder-Notifications_PROJECT_ROOT}/src/*.cpp"
-            "${Cinder-Notifications_PROJECT_ROOT}/src/*.c")
+            "${Cinder-XUI_PROJECT_ROOT}/src/**/*.h"
+            "${Cinder-XUI_PROJECT_ROOT}/src/**/*.hpp"
+            "${Cinder-XUI_PROJECT_ROOT}/src/**/*.cc"
+            "${Cinder-XUI_PROJECT_ROOT}/src/**/*.cpp"
+            "${Cinder-XUI_PROJECT_ROOT}/src/**/*.c"
+            "${Cinder-XUI_PROJECT_ROOT}/src/*.h"
+            "${Cinder-XUI_PROJECT_ROOT}/src/*.hpp"
+            "${Cinder-XUI_PROJECT_ROOT}/src/*.cc"
+            "${Cinder-XUI_PROJECT_ROOT}/src/*.cpp"
+            "${Cinder-XUI_PROJECT_ROOT}/src/*.c")
 
     # Create the library!
     add_library(Cinder-XUI ${SOURCE_LIST})
